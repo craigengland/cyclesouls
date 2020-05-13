@@ -1,7 +1,18 @@
-.site-head {
-  &__site-name {
-    font-weight: 700;
-    text-decoration: none;
-    color: var(--color-text);
-  }
+.site-header {
+  grid-column: 1 / 8;
+  padding: 0 10%;
+}
+
+.site-header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.site-title {
+  font-size: 1.4rem;
+}
+
+#main-content {
+  grid-column: 1 / 8;
 }

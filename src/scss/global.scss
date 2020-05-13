@@ -25,24 +25,9 @@ body {
   flex-direction: column;
 }
 
-main {
-  flex: 1 0 auto;
-  &:focus {
-    outline: none;
-  }
-}
-
-hr {
-  display: block;
-  height: 1px;
-  max-width: 500px;
-  background: var(--color-stroke);
-  border: none;
-  margin: get-size(900) auto;
-}
-
 // For when metric attributes are added to img elements
 img {
+  max-width: 100%;
   height: auto;
 }
 
@@ -63,8 +48,10 @@ img {
 // Components
 @import 'components/button';
 @import 'components/form';
+@import 'components/grid';
 @import 'components/hamburger';
 @import 'components/heading-permalink';
+@import 'components/hero-image';
 @import 'components/intro';
 @import 'components/nav';
 @import 'components/pagination';
