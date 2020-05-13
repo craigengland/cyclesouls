@@ -1,17 +1,8 @@
 .post-list {
-  &__item {
-    --flow-space: #{get-size(700)};
-  }
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  &__link {
-    &,
-    &:visited {
-      color: var(--color-theme-primary);
-      text-decoration: none;
-    }
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+.post-list li {
+  flex: 45% 0 1;
 }

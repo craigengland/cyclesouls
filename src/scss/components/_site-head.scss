@@ -1,7 +1,7 @@
 .site-header {
   grid-column: 1 / 8;
   padding: 0 10%;
-  margin-top: 10%;
+  margin-top: 5vw;
 }
 
 .site-header a {
@@ -11,13 +11,16 @@
 }
 
 .site-header h2 {
-  margin-top: 5%;
+  margin-top: 7.5vw;
+  font-size: 3rem;
 }
 
 .site-title {
   font-size: 1.4rem;
+  letter-spacing: .2em;
 }
 
 #main-content {
   grid-column: 1 / 8;
+  margin-top: 5vw;
 }
