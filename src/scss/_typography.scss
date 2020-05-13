@@ -1,11 +1,11 @@
 /* lora-700 - latin */
 @font-face {
-  font-family: 'Lora';
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Lora Bold'), local('Lora-Bold'),
-    url('/fonts/lora-v13-latin-700.woff') format('woff');
+  src: local('Cormorant Garamond'), local('Cormorant-Garamond'),
+    url('/fonts/CormorantGaramond-Regular.ttf') format('ttf');
 }
 
 body {
@@ -13,12 +13,6 @@ body {
   $line-height: get-size(600);
   line-height: $line-height / ($line-height * 0 + 1);
 
-  @include apply-utility('font', 'base');
-}
-
-h1,
-h2,
-h3 {
   @include apply-utility('font', 'base');
 }
 

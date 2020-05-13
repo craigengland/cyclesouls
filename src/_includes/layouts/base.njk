@@ -19,6 +19,10 @@
   {% include "partials/global/site-foot.njk" %}
   {% block foot %}
   {% endblock %}
+  
+  {% set ariaLabel = 'navigation' %}
+  {% include "partials/components/nav.njk" %}
+
   <script type="module" src="/js/components/theme-toggle.js" async defer></script>
   <script>
     if ('serviceWorker' in navigator) {

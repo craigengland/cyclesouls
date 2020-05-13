@@ -2,9 +2,6 @@
 
 {# Intro content #}
 {% set introHeading = title %}
-{% set introSummary %}
-  {{ content | safe }}
-{% endset %}
 
 {# Post list content #}
 {% set postListHeading = postsHeading %}
@@ -17,9 +14,23 @@
 {% endif %}
 
 {% block content %}
+<div class="">
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
     {% include "partials/components/post-list.njk" %}
     {% include "partials/components/pagination.njk" %}
   </main>
+  <section>
+    <button class="hamburger">
+      <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+        <path d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z" fill="#1040e2"/>
+        <path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z"/>
+      </svg>
+      </button>
+
+        <figure>
+          <img src="img/us.jpg" alt="">
+      </figure>
+  </section>
+</div>
 {% endblock %}

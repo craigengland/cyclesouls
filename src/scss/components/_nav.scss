@@ -1,34 +1,45 @@
 .nav {
-  &__list {
-    overflow-x: auto;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-100%);
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  transition: all 1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 
-    // Add padding and neg margin to allow focus style visibility
-    padding: 0.5rem;
-    margin: -0.5rem;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: none;
+.nav a {
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: all .4s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
 
-    &::-webkit-scrollbar {
-      display: none;
-    }
+.nav a.show:hover {
+  transform: translateY(-5px);
+}
 
-    > * + * {
-      margin-left: get-size(500);
-    }
-  }
+.nav a.show {
+  transform: translateY(0);
+  opacity: 1;
+}
 
-  &__item {
-    padding: get-size(300) 0;
-    flex-shrink: 0;
+.nav a:not(:last-child) {
+  margin-bottom: 2.5%;
+}
 
-    a {
-      color: currentColor;
-
-      @include apply-utility('weight', 'mid');
-
-      &:not(:hover) {
-        text-decoration: none;
-      }
-    }
-  }
+.nav.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
