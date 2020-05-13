@@ -1,12 +1,17 @@
 .site-header {
   grid-column: 1 / 8;
   padding: 0 10%;
+  margin-top: 10%;
 }
 
 .site-header a {
   text-decoration: none;
   text-transform: uppercase;
   color: black;
+}
+
+.site-header h2 {
+  margin-top: 5%;
 }
 
 .site-title {
