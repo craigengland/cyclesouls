@@ -34,21 +34,6 @@
       text-decoration: underline;
     }
 
-    code {
-      font-size: 1.2em;
-      color: var(--color-theme-primary);
-      font-weight: 600;
-      margin-left: 0.01ch;
-      margin-right: 0.01ch;
-    }
-
-    pre > code {
-      margin-right: 0;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-    }
-
     blockquote {
       border-left: 0.4rem solid var(--color-theme-primary-glare);
       margin-left: 0;
@@ -120,22 +105,4 @@
     }
   }
 
-  &__footer {
-    background: var(--color-theme-highlight);
-
-    h2 {
-      flex-shrink: 0;
-      margin-right: get-size('base');
-      color: var(--color-dark);
-    }
-
-    h2 a {
-      @extend %visually-hidden;
-    }
-
-    a {
-      background: var(--color-bg);
-      padding: 0.4rem 0.6rem;
-    }
-  }
 }

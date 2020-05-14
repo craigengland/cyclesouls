@@ -1,8 +1,18 @@
 .post-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .post-list li {
   flex: 45% 0 1;
+}
+
+.post-heading {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.post-list__item {
+  margin-bottom: 2.5%;
 }

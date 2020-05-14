@@ -17,15 +17,15 @@
     {% include "partials/global/site-head.njk" %}
     {% block content %}
     {% endblock content %}
+    {% include "partials/global/site-foot.njk" %}
+    {% block foot %}
+    {% endblock %}
   </div>
-  {% include "partials/global/site-foot.njk" %}
-  {% block foot %}
-  {% endblock %}
   
   {% set ariaLabel = 'navigation' %}
   {% include "partials/components/nav.njk" %}
 
-  <script type="module" src="/js/components/theme-toggle.js" async defer></script>
+  <script type="module" src="/js/components/menu.js" async defer></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
