@@ -1,3 +1,8 @@
+#main-content {
+  grid-column: 2 / 10;
+}
+
+
 .post {
   &__body {
     --flow-space: #{get-size(800)};
@@ -11,11 +16,14 @@
     }
 
     h2,
-    h3 {
+    h3,
+    h4 {
       position: relative;
-      /*display: flex;*/
-
       @include apply-utility('leading', 'tight');
+    }
+
+    p {
+      font-size: 1.2rem;
     }
 
     a:not([class]) {
@@ -26,7 +34,6 @@
       padding: 0.2rem 0.4rem 0.3rem 0.4rem;
       text-decoration: none;
       word-break: break-word;
-
       @include apply-utility('leading', 'tight');
     }
 
@@ -34,13 +41,19 @@
       text-decoration: underline;
     }
 
+    * + * {
+      margin-top: 1em;
+    }
+
     blockquote {
-      border-left: 0.4rem solid var(--color-theme-primary-glare);
+      border-top: 0.4rem solid var(--color-theme-mid);
+      border-bottom: 0.4rem solid var(--color-theme-mid);
       margin-left: 0;
-      padding-left: get-size(500);
+      padding-top: get-size(500);
+      padding-bottom: get-size(500);
       font-style: italic;
       font-size: get-size(600);
-
+      text-align: center;
       p {
         opacity: 0.85;
         padding: get-size(500) 0;
@@ -56,34 +69,6 @@
       }
     }
 
-    figure,
-    figure + *,
-    pre > code,
-    .video-player,
-    .video-player + *,
-    video {
-      --flow-space: #{get-size('max')};
-    }
-
-    figure,
-    pre > code,
-    .video-player,
-    video {
-      width: 100vw;
-      max-width: map-get($metrics, 'wrap-max-width');
-      margin-left: 50%; /*changing this value to 47% removes the horizontal scrollbar once the viewport is < 930px */
-      transform: translateX(
-        -50%
-      ); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
-      position: relative;
-    }
-
-    figure img,
-    pre > code,
-    .video-player {
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    }
-
     figure img {
       position: relative;
       z-index: 1;
@@ -97,12 +82,6 @@
       padding: 0 get-size(500);
     }
 
-    pre > code {
-      display: block;
-      background: var(--color-dark);
-      padding: get-size(700);
-      font-size: get-size(500);
-    }
   }
 
 }
