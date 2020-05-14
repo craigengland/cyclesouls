@@ -1,6 +1,6 @@
 ---
-layout: 'layouts/page.njk'
-permalink: '/about/index.html'
-title: 'About'
+layout: layouts/page.njk
+title: About
+permalink: /about/index.html
 ---
-The About Page
+Cycle Souls is made up of Craig England and Donna Berrie. We recently moved to Dunbar, around 30 miles outside of Edinburgh. Prior to the move we spent 2 years living at Haymarket where cafe hopping was our favourite past time. Now we are taking that mantra to the suburbs and exploring everything that Dunbar and the surrounding East Lothian countryside has to offer.
