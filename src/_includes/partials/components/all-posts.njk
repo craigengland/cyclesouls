@@ -3,7 +3,7 @@
     
       <h2 class="post-heading">{{ postListHeading }}</h2>
       <ol class="post-list" reversed>
-        {% for item in postListItems.slice(0, 4) %}
+        {% for item in postListItems %}
           {% if item.date.getTime() <= global.now %}
             <li class="post-list__item">
               <figure>
@@ -18,10 +18,7 @@
             </li>
           {% endif %} 
         {% endfor %}
-      </ol> 
-      <div class="btn-container">
-        <a href="/blog" class="button">View all posts</a> 
-      </div>
+      </ol>
     
   </section>
 {% endif %}

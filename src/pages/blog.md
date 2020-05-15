@@ -1,6 +1,5 @@
 ---
-layout: 'layouts/page.njk'
+layout: 'layouts/archive.njk'
 permalink: '/blog/index.html'
 title: 'Blog'
 ---
-Latest Posts

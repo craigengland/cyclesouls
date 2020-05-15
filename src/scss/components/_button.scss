@@ -1,9 +1,12 @@
+.btn-container {
+  text-align: center;
+}
+
 .button {
   display: inline-block;
-  border: none;
-  background-color: var(--color-action-bg);
-  color: var(--color-action-text);
-  padding: get-size(300) get-size('base');
+  border: .05em solid black;
+  color: black;
+  padding: 1rem 2rem;
   line-height: 1;
   margin: 0;
   text-decoration: none;
