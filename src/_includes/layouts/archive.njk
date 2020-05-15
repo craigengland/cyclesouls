@@ -4,12 +4,28 @@
 {% set introHeading = title %}
 {% set introSummary %}{{ content | safe }}{% endset %}
 
-{# Post list content #}
+{# Post list content #}                
 {% set postListItems = collections.posts %}
+
+{# Tags #}
+{% set tags = collections | keys %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
     {% include "partials/components/all-posts.njk" %}
   </main>
-{% endblock %}
+  <section class="tag-section">
+    <h3>Explore by Topic</h3>
+    <ul class="tags"> 
+      {% for tag in tags %}
+
+        <li>
+          <a href="/tags/{{ tag | url }}">{{ tag }}</a>
+        </li>
+
+      {% endfor %}
+
+    </ul>
+  </section>
+{% endblock %}  

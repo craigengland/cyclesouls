@@ -1,0 +1,20 @@
+.tag-section {
+  grid-column: 10 / 12;
+}
+
+.tags {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags li {
+  border: 3px solid #efefef;
+}
+
+.tags li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2em;
+  color: var(--color-primary);
+}

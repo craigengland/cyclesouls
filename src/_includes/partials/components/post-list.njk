@@ -10,7 +10,7 @@
                 <img src="{{ item.data.featuredimage }}" alt="{{ item.data.title }}"/>
               </figure>
               <h3>
-                <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
+                <a href="{{ item.url }}" class="post-list__link link-overlay" rel="bookmark">{{ item.data.title }}</a>
               </h3>
               <p>
                 <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>

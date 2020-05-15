@@ -1,5 +1,6 @@
 .btn-container {
   text-align: center;
+  padding-bottom: 1em;
 }
 
 .button {
@@ -13,6 +14,7 @@
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
+  box-shadow: 4px 4px 0 0 black;
 }
 
 .button:hover,

@@ -20,6 +20,14 @@ module.exports = function(config) {
   config.addFilter('markdownFilter', markdownFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
 
+  config.addFilter( 'keys', obj => Object.keys( obj ) );
+
+  config.addFilter( 'except', ( arr=[] ) => {
+    return arr.filter( function( value ) {
+      return value != 'all';
+    } ).sort();
+  } );
+
   // Layout aliases
   config.addLayoutAlias('home', 'layouts/home.njk');
 

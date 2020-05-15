@@ -8,11 +8,21 @@
   flex: 45% 0 1;
 }
 
+.post-list h3 {
+  line-height: 1.2;
+  font-size: 1.4em;
+}
+
+.post-list h3 a {
+  color: var(--color-primary);
+}
+
 .post-heading {
   font-size: 1.75rem;
   margin-bottom: 1.75rem;
 }
 
 .post-list__item {
-  margin-bottom: 2.5%;
+  margin-bottom: 10%;
+  position: relative;
 }
