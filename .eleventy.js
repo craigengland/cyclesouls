@@ -23,9 +23,8 @@ module.exports = function(config) {
   config.addFilter( 'keys', obj => Object.keys( obj ) );
 
   config.addFilter( 'except', ( arr=[] ) => {
-    return arr.filter( function( value ) {
-      return value != 'all';
-    } ).sort();
+    const posts = ['all', 'postFeed', 'posts'];
+    return arr.filter(value => !posts.includes(value)).sort();
   } );
 
   // Layout aliases

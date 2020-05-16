@@ -1,15 +1,16 @@
 .site-foot {
-  grid-column: 2 / 8;
-  padding: 5% 0;
+  grid-column: 1 / 4;
+  margin-top: 5vw;
   a {
-    color: currentColor;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
-  &__credit {
+    color: var(--color-primary);
+    background-color: pink;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    padding: 2rem 0;
     text-align: center;
+    &:hover {
+      
+    }
   }
 }

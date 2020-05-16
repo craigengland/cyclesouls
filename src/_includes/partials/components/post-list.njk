@@ -1,26 +1,28 @@
 {% if postListItems.length %}
-  <section class="posts">
-    
+  <section class="posts"> 
+                   
       <h2 class="post-heading">{{ postListHeading }}</h2>
       <ol class="post-list" reversed>
         {% for item in postListItems.slice(0, 4) %}
           {% if item.date.getTime() <= global.now %}
             <li class="post-list__item">
               <figure>
-                <img src="{{ item.data.featuredimage }}" alt="{{ item.data.title }}"/>
-              </figure>
-              <h3>
-                <a href="{{ item.url }}" class="post-list__link link-overlay" rel="bookmark">{{ item.data.title }}</a>
-              </h3>
-              <p>
-                <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
-              </p>
+                <img src="{{ item.data.featuredimage }}" alt="{{ item.data.title }}" loading="lazy" />
+              </figure> 
+              <div class="post-list__content">
+                <h3>
+                  <a href="{{ item.url }}" class="post-list__link link-overlay" rel="bookmark">{{ item.data.title }}</a>
+                </h3> 
+                <p>
+                  <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+                </p>
+              </div>
             </li>
           {% endif %} 
         {% endfor %}
       </ol> 
       <div class="btn-container">
-        <a href="/blog" class="button">View all posts</a> 
+        <a href="/blog" class="button button-primary">View all posts</a> 
       </div>
     
   </section>

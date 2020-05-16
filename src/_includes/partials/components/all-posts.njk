@@ -7,14 +7,16 @@
           {% if item.date.getTime() <= global.now %}
             <li class="post-list__item">
               <figure>
-                <img src="{{ item.data.featuredimage }}" alt="{{ item.data.title }}"/>
+                <img src="{{ item.data.featuredimage }}" alt="{{ item.data.title }}" loading="lazy" />
               </figure>
-              <h3>
-                <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
-              </h3>
-              <p>
-                <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
-              </p>
+              <div class="post-list__content">
+                <h3>
+                  <a href="{{ item.url }}" class="post-list__link link-overlay" rel="bookmark">{{ item.data.title }}</a>
+                </h3>
+                <p>
+                  <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+                </p>
+              </div>
             </li>
           {% endif %} 
         {% endfor %}

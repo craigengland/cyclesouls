@@ -1,11 +1,15 @@
 .post-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .post-list li {
   flex: 45% 0 1;
+  margin-bottom: 5rem;
+  margin-right: 2.5%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .post-list h3 {
@@ -17,12 +21,33 @@
   color: var(--color-primary);
 }
 
+.post-list figure {
+  display: flex;
+}
+
+.post-list figure img {
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+}
+
+.post-list__content {
+  padding: 2rem 1.25rem;
+  border-left: .125em solid $border-color;
+  border-right: .125em solid $border-color;
+  border-bottom: .125em solid $border-color;
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+  box-shadow: $box-shadow;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  &:hover {
+    box-shadow: $box-shadow-hover;
+  }
+}
+
 .post-heading {
   font-size: 1.75rem;
   margin-bottom: 1.75rem;
-}
-
-.post-list__item {
-  margin-bottom: 10%;
-  position: relative;
+  text-transform: capitalize;
 }

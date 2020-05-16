@@ -7,19 +7,20 @@ function openMenu() {
   
   isMenuOpen = !isMenuOpen;
 
-  if (isMenuOpen) {
+  if (isMenuOpen) { 
     
     menu.classList.add('show');
-    document.body.style.overflow = 'hidden';
+      
     setTimeout(animateItems, 1000);
 
   } else {
     animateItems(true)
     setTimeout(() => {
       menu.classList.remove('show');
-      document.body.style.overflow = 'auto';
+      
     }, 1000)
-  }
+    button.textContent = 'Menu';
+  } 
   
 }
 
@@ -35,7 +36,9 @@ function loopItems(items, reverse) {
       }, interval * i);
   
     });
-  } else {
+    button.textContent = 'Menu';
+  } else {  
+    button.textContent = 'Close Menu';
     items.forEach((item, i) => {
 
       setTimeout(() => {
@@ -43,6 +46,7 @@ function loopItems(items, reverse) {
       }, interval * i);
   
     });
+
   }
   
 }

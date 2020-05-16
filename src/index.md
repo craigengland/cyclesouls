@@ -7,4 +7,3 @@ postsHeading: Latest posts
 archiveButtonText: See all
 socialImage: ""
 ---
-See more
