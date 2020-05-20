@@ -1,12 +1,17 @@
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vw;
+}
+
 .post-list {
   display: flex;
   flex-wrap: wrap;
 }
 
 .post-list li {
-  flex: 45% 0 1;
-  margin-bottom: 5rem;
-  margin-right: 2.5%;
+  flex: 100% 0 1;
+  margin-bottom: 2.5rem;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -51,3 +56,26 @@
   margin-bottom: 1.75rem;
   text-transform: capitalize;
 }
+
+
+@media (min-width: 600px) {
+
+  .post-list li {
+    margin-right: 5%;
+    flex: 45% 0 1;
+  }
+
+}
+
+@media (min-width: 900px) {
+
+  .posts {
+    flex: 70% 0 1;
+    order: 1;
+  }
+
+  .blog-content {
+    flex-direction: row;
+  }
+
+} 

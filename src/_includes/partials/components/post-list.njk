@@ -1,6 +1,6 @@
 {% if postListItems.length %}
   <section class="posts"> 
-                   
+       
       <h2 class="post-heading">{{ postListHeading }}</h2>
       <ol class="post-list" reversed>
         {% for item in postListItems.slice(0, 4) %}
@@ -24,6 +24,6 @@
       <div class="btn-container">
         <a href="/blog" class="button button-primary">View all posts</a> 
       </div>
-    
+
   </section>
 {% endif %}

@@ -10,22 +10,33 @@
 {# Tags #}
 {% set tags = collections | keys | except %}
 
-{% block content %} 
+{% block content %}   
   <main id="main-content" tabindex="-1">
-    {{ content | safe }}
-    {% include "partials/components/all-posts.njk" %}
+
+    <div class="page-introduction leading-loose">
+      <h2>{{ introHeading }}</h2>
+      {{ content | safe }}      
+    </div>  
+             
+    <div class="blog-content">
+      <section class="tag-section">
+        <h3>Explore by Topic</h3>
+        <ul class="tags">     
+          {% for tag in tags %}
+            
+            <li>
+              <a href="/tags/{{ tag | url }}">{{ tag }}</a>
+            </li>
+
+          {% endfor %}
+
+        </ul>
+      </section>
+
+      {% include "partials/components/all-posts.njk" %}
+
+    </div>
+    
   </main>
-  <section class="tag-section">
-    <h3>Explore by Topic</h3>
-    <ul class="tags"> 
-      {% for tag in tags %}
-        
-        <li>
-          <a href="/tags/{{ tag | url }}">{{ tag }}</a>
-        </li>
-
-      {% endfor %}
-
-    </ul>
-  </section>
+  
 {% endblock %}  

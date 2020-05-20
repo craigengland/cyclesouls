@@ -1,20 +1,20 @@
 {% extends 'layouts/base.njk' %}   
-                      
+                          
 {# Intro content #}
 {% set introHeading = title %}
-{% set introSummary %}
+{% set introSummary %}     
 <p class="[ intro__meta ] [ text-500 leading-tight ]">
-  {% if date %}
+  {% if date %} 
     <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
-  {% endif %}  
+  {% endif %}   
 </p>
-{% endset %}
-
-{% block content %}
-  <main id="main-content" tabindex="-1">
+{% endset %}     
+ 
+{% block content %}  
+  <main id="main-content" class="post" tabindex="-1">
     <article class="post__body">
-      
-      {{ content | safe }}
+      <h1>{{ introHeading }}</h1>
+      {{ content | safe }}  
       
       {% if site.enableThirdPartyComments %}
         <aside class="[ post__body ] [ inner-wrapper ] [ pad-bottom-900 text-500 ]">
@@ -23,7 +23,12 @@
       {% endif %}
       
     </article>
+
+    <!-- Share -->
+    {% include "partials/components/share.njk" %}
+
   </main>
 {% endblock %}
 
-{{ content | safe }}
+{{ content | safe }}   
+   

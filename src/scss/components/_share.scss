@@ -1,0 +1,37 @@
+.share-content {
+  flex: 25% 0 1;
+}
+
+.share-content h3 {
+  background-color: $pink;
+  color: var(--color-primary);
+  padding: .4rem .75rem;
+  display: inline-block;
+}
+
+.share-icons {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+} 
+
+.share-icons li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.share-icons li a {
+  display: block;
+}
+
+.share-icons svg {
+  color: var(--color-primary);
+}
+
+
+@media (min-width: 40em) {
+
+  .share-content {
+    padding-left: 2rem;
+  }
+
+}

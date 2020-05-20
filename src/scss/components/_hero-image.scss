@@ -1,12 +1,22 @@
 .image {
-  
+  margin: 10vw 0;
 }
 
 .image img {
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 40%;
-  height: 100vh;
-  object-fit: cover;
+  position: relative;
+  max-width: 100%;
+}
+
+
+@media (min-width: 1000px) {
+
+  .image img {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
 }

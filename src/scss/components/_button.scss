@@ -1,31 +1,32 @@
 .btn-container {
-  text-align: center;
   padding-bottom: 1em;
 }
 
 .button {
   display: inline-block;
-  color: black;
+  color: var(--color-primary);
   padding: 2rem 3rem;
   line-height: 1;
-  margin: 0;
   text-decoration: none;
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 1rem;
+  position: relative;
 }
 
 .button-primary {
-  border: .05em solid rgb(255, 192, 203);
+  border: .05em solid $pink;
   box-shadow: 4px 4px 0 0 $pink;
   transition: all .3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
   box-sizing: border-box;
+  top: 0;
+  left: 0;
   &:hover, &:focus {
-    margin: 4px 0 0 4px;
-    box-shadow: 4px 4px 0 0 var(--color-primary);
+    top: 4px;
+    left: 4px;
+    box-shadow: 0px 0px 0px 0px transparent;
   }
 }
 
@@ -43,6 +44,7 @@
   outline-offset: -4px;
 }
 
-.button:active {
-  transform: scale(0.99);
+button[type="submit"] {
+  font-size: 1rem;
+  padding: 1.25em 2rem;
 }

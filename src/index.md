@@ -6,4 +6,4 @@ metaDesc: Cyclesouls is the lifestyle blog of Craig England and Donna Berrie
 postsHeading: Latest posts
 archiveButtonText: See all
 socialImage: ""
----
+---   

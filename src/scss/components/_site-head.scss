@@ -1,5 +1,4 @@
 .site-header {
-  grid-column: 2 / 7;
   margin-top: 5vw;
 }
 
@@ -11,16 +10,64 @@
 
 .site-header h2 {
   margin-top: 7.5vw;
-  font-size: 3rem;
   font-weight: normal;
 }
 
 .site-title {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   letter-spacing: .2em;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  color: var(--color-primary);
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -60px;
+    width: 50px;
+    background-color: var(--color-primary);
+    height: 2px;
+    display: block;
+  }
 }
 
-#main-content.home {
-  grid-column: 2 / 8;
-  margin-top: 5vw;
+#main-content {
+  margin-top: 8vw;
+}
+
+@media (min-width: 30em) {
+
+  .site-title {
+    font-size: 1.4rem;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -90px;
+      width: 80px;
+      background-color: var(--color-primary);
+      height: 2px;
+      display: block;
+    }
+  }
+
+  .site-header h2 {
+    font-size: 2.4rem;
+  }
+
+}
+
+@media (min-width: 45em) {
+
+  .site-header {
+    margin-top: 5vw;
+  }
+
+  .site-header h2 {
+    font-size: 3rem;
+  }
+
 }

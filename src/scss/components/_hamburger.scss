@@ -1,9 +1,9 @@
 .hamburger {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   background-color: $pink;
-  padding: 1.25em 2em;
+  padding: 1.25em 1.5em;
   z-index: 12;
   border-left: 1px solid $border-color;
   border-bottom: 1px solid $border-color;

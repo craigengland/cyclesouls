@@ -1,0 +1,16 @@
+.page, .page-introduction {
+  max-width: 800px;
+}
+
+.page p, .page-introduction p {
+  font-size: 1.2rem;
+}
+
+
+@media (min-width: 1000px) {
+
+  .page p, .page-introduction p {
+    font-size: 1.4rem;
+  }
+
+}

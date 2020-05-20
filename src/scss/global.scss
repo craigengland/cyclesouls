@@ -3,9 +3,6 @@
 // Pull in the stalfos lib
 @import '../../node_modules/stalfos/stalfos.scss';
 
-// Local mixins
-@import 'mixins/dark-mode';
-
 @import 'theme';
 
 // Local dependencies
@@ -16,7 +13,7 @@ $box-shadow: rgba(52, 61, 68, 0.1) 0px 1px 2px;
 $box-shadow-hover: rgba(52, 61, 68, 0.1) 0px 4px 4px;
 $border-radius: 4px; 
 
-$pink: pink;
+$pink: #f9d0d8;
 
 /**
  * GLOBAL STYLES
@@ -37,12 +34,16 @@ img {
   height: auto;
 }
 
+ul {
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
 }
 
 :focus {
-  outline: 1px solid pink;
+  outline: 1px solid $pink;
   outline-offset: 0.5rem;
 }
 
@@ -74,9 +75,11 @@ a {
 @import 'components/image';
 @import 'components/intro';
 @import 'components/nav';
+@import 'components/page';
 @import 'components/pagination';
 @import 'components/post';
 @import 'components/post-list';
+@import 'components/share';
 @import 'components/site-head';
 @import 'components/site-foot';
 @import 'components/skip-link';

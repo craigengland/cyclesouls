@@ -1,16 +1,18 @@
 .site-foot {
-  grid-column: 1 / 4;
-  margin-top: 5vw;
+  margin: 5vw 0;
   a {
-    color: var(--color-primary);
-    background-color: pink;
-    width: 100%;
-    display: block;
+    color: var(--color-primary); 
     text-decoration: none;
-    padding: 2rem 0;
-    text-align: center;
+    font-size: 2rem;
+    background-color: $pink;
+    padding: .4rem .8rem;
+    display: inline-flex;
+    align-items: center;
     &:hover {
-      
+      text-decoration: underline;
     }
+  }
+  svg {
+    margin-right: 1rem;
   }
 }

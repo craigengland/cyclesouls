@@ -16,9 +16,9 @@ permalink: /tags/{{ tag }}/
 ---
 
 {% extends 'layouts/base.njk' %}
-
+  
 {# Intro content #}
-{% set introHeading %}{{ tag }} Posts{% endset %}
+{% set introHeading %}{{ tag | capitalize }} Posts{% endset %}
 {% set introHeadingLevel = '2' %}
 
 {# Post list content #}
@@ -27,7 +27,7 @@ permalink: /tags/{{ tag }}/
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    {% include "partials/components/intro.njk" %}
+    <h2>{{ introHeading }}</h2>
     {% include "partials/components/all-posts.njk" %}
     {% include "partials/components/pagination.njk" %}
   </main>
