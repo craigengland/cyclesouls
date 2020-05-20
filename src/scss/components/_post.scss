@@ -41,14 +41,14 @@
       margin-top: 1em;
     }
 
-    blockquote {
-      border-top: 0.4rem solid $pink;
+    blockquote {      
       margin: get-size(900) auto;      
-      font-style: italic;
-      font-size: get-size(600);
       max-width: 75%;
       p {
-        padding: .4rem;
+        padding: 0;
+        font-style: italic;
+        font-size: get-size(600);
+        box-shadow: .5rem 0 0 $pink, -.5rem 0 0 $pink;
         display: inline;
         background-color: $pink;
       }
@@ -98,7 +98,9 @@
   }
 
   .post__body {
-    
+    blockquote p {
+      font-size: 2.4rem;
+    }
   }
 
 }

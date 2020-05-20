@@ -3,7 +3,7 @@
   a {
     color: var(--color-primary); 
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.4rem;
     background-color: $pink;
     padding: .4rem .8rem;
     display: inline-flex;
@@ -15,4 +15,12 @@
   svg {
     margin-right: 1rem;
   }
+}
+
+@media (min-width: 40em) {
+
+  .site-foot a {
+    font-size: 2rem;
+  }
+
 }
