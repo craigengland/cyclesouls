@@ -1,16 +1,28 @@
 .share-content {
   flex: 25% 0 1;
+  margin-top: 5vw;
 }
 
+.share-background {
+  background-image: url('../../images/share-background.svg');
+  background-repeat: no-repeat;
+  width: 250px;
+  min-height: 250px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .share-content h3 {
-  background-color: $pink;
-  color: var(--color-primary);
-  padding: .4rem .75rem;
-  display: inline-block;
+  color: $pink;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .share-icons {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   align-items: center;
 } 
@@ -20,18 +32,39 @@
 }
 
 .share-icons li a {
-  display: block;
+  display: flex;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: $pink;
+  padding: .5rem;
 }
 
 .share-icons svg {
-  color: var(--color-primary);
+  fill: var(--color-primary);
+  width: 24px;
+  height: 24px;
 }
 
 
-@media (min-width: 40em) {
+@media (min-width: 900px) {
 
   .share-content {
-    padding-left: 2rem;
+    padding-left: 3rem;
+  }
+
+  .share-background {
+    position: sticky;
+    top: 10px;
+  }
+
+}
+
+@media (min-width: 1100px) {
+
+  .share-content {
+    padding-left: 5rem;
   }
 
 }

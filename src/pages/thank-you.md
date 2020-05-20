@@ -1,4 +1,5 @@
 ---
+layout: layouts/page.njk
 title: Thank you
 permalink: /thank-you/index.html
 ---

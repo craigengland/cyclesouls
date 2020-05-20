@@ -1,7 +1,9 @@
 <section class="image">
-
-    <figure>
-      <img src="../images/hero-1.jpg" alt="Donna and Craig in Iceland">
-    </figure>
-
+    <picture>
+        <source srcset="../images/hero-1.webp" media="(min-width: 1000px)" type="image/webp">
+        <source srcset="../images/hero-1.jpg" media="(min-width: 1000px)" type="image/jpg">
+        <source srcset="../images/hero-tablet.webp" media="(min-width: 650px)" type="image/webp">
+        <source srcset="../images/hero-tablet.jpg" media="(min-width: 650px)" type="image/jpg">
+        <img src="../images/hero-tablet.jpg" alt="Donna and Craig in Iceland">  
+    </picture>    
 </section>    
