@@ -1,6 +1,9 @@
 ---
 layout: layouts/post.njk
 title: Second Post
+metaTitle: Iceland Trip
+metaDesc: Taking a trip to Iceland requires careful planning and these useful
+  tips set us up for a great time in Reykjavik
 featuredimage: /images/20190430_112052.jpg
 date: 2020-05-13T16:25:41.020Z
 tags:
