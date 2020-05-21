@@ -49,6 +49,7 @@
         font-style: italic;
         font-size: get-size(600);
         box-shadow: .5rem 0 0 $pink, -.5rem 0 0 $pink;
+        box-decoration-break: clone;
         display: inline;
         background-color: $pink;
       }

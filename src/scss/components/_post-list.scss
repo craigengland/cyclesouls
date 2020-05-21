@@ -28,6 +28,7 @@
 
 .post-list figure {
   display: flex;
+  flex-direction: column;
 }
 
 .post-list figure img {
