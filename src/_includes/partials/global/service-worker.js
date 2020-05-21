@@ -14,10 +14,16 @@ const EXCLUDED_URLS = [
 ];
 
 // URLS that we want to be cached when the worker is installed
-const PRE_CACHE_URLS = ['/', '/fonts/CormorantGaramond-Regular.ttf'];
+const PRE_CACHE_URLS = [
+  '/', 
+  '/about',
+  '/blog',
+  '/contact',
+  '/fonts/CormorantGaramond-Regular.ttf'
+];
 
 // You might want to bypass a certain host
-const IGNORED_HOSTS = ['localhost', 'unpkg.com', ];
+// const IGNORED_HOSTS = ['localhost', 'unpkg.com', ];
 
 /**
  * Takes an array of strings and puts them in a named cache store
@@ -30,9 +36,13 @@ const addItemsToCache = function(cacheName, items = []) {
 };
 
 self.addEventListener('install', evt => {
-  self.skipWaiting();
 
-  addItemsToCache(CACHE_KEYS.PRE_CACHE, PRE_CACHE_URLS);
+  evt.waitUntil(
+    caches.open(CACHE_KEYS.PRE_CACHE).then((cache) => {
+      cache.addAll(PRE_CACHE_URLS);
+    })
+    .then(() => self.skipWaiting())
+);
 });
 
 self.addEventListener('activate', evt => {
@@ -55,38 +65,16 @@ self.addEventListener('activate', evt => {
 });
 
 self.addEventListener('fetch', evt => {
-  const {hostname} = new URL(evt.request.url);
-
-  // Check we don't want to ignore this host
-  if (IGNORED_HOSTS.indexOf(hostname) >= 0) {
-    return;
-  }
 
   // Check we don't want to ignore this URL
   if (EXCLUDED_URLS.some(page => evt.request.url.indexOf(page) > -1)) {
     return;
   }
-
+  
   evt.respondWith(
-    caches.match(evt.request).then(cachedResponse => {
-      // Item found in cache so return
-      if (cachedResponse) {
-        return cachedResponse;
-      }
-
-      // Nothing found so load up the request from the network
-      return caches.open(CACHE_KEYS.RUNTIME).then(cache => {
-        return fetch(evt.request)
-          .then(response => {
-            // Put the new response in cache and return it
-            return cache.put(evt.request, response.clone()).then(() => {
-              return response;
-            });
-          })
-          .catch(ex => {
-            return;
-          });
-      });
-    })
+    fetch(evt.request)
+      .catch(() => {
+        caches.match(evt.request)
+      })
   );
 });
