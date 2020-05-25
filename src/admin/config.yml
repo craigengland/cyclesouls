@@ -21,7 +21,7 @@ collections:
           - {label: "Post Feed Heading", name: "postsHeading", widget: "string", default: "Latest posts"}
           - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "See all posts"}
           - {label: "Social Image", name: "socialImage", widget: "image", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
