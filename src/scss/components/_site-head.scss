@@ -18,7 +18,7 @@
   letter-spacing: .2em;
   position: relative;
   display: inline-block;
-  color: var(--color-primary);
+  color: $primary;
   &:after {
     content: '';
     position: absolute;
@@ -26,14 +26,15 @@
     transform: translateY(-50%);
     right: -60px;
     width: 50px;
-    background-color: var(--color-primary);
+    background-color: $primary;
     height: 2px;
     display: block;
   }
 }
 
-#main-content {
-  margin-top: 8vw;
+#main-content:not(.post) {
+  margin-top: 10%;
+  display: block;
 }
 
 @media (min-width: 30em) {
@@ -47,7 +48,7 @@
       transform: translateY(-50%);
       right: -90px;
       width: 80px;
-      background-color: var(--color-primary);
+      background-color: $primary;
       height: 2px;
       display: block;
     }

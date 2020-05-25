@@ -14,7 +14,7 @@
   font-weight: bold;
   letter-spacing: .05em;
   transition: all .3s;
-  color: var(--color-primary);
+  color: $primary;
   &:hover {
     cursor: pointer;
   }

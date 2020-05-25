@@ -30,12 +30,14 @@ main {
   overflow: hidden;
 }
 
-main.post {
+#main-content.post {
   overflow: initial;
   position: relative;
+  margin-top: 10%;
 }
 
 ::selection {
   color: var(--color-selection-text); 
   background-color: var(--color-selection-bg);
 }
+

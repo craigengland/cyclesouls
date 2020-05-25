@@ -23,7 +23,7 @@
     }
 
     a:not([class]) {
-      color: var(--color-primary);
+      color: $primary;
       position: relative;
       display: inline-block;
       background: var(--color-theme-highlight); 

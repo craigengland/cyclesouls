@@ -14,12 +14,12 @@ pagination:
   addAllPagesToCollections: true
 permalink: /tags/{{ tag }}/
 ---
-
+ 
 {% extends 'layouts/base.njk' %}
   
 {# Intro content #}
 {% set introHeading %}{{ tag | capitalize }} Posts{% endset %}
-{% set introHeadingLevel = '2' %}
+{% set introHeadingLevel = '2' %}          
 
 {# Post list content #}
 {% set postListHeadingLevel = '2' %}

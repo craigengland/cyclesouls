@@ -7,7 +7,7 @@
   background-image: url('../../images/share-background.svg');
   background-repeat: no-repeat;
   width: 250px;
-  min-height: 250px;
+  height: 250px;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -42,7 +42,7 @@
 }
 
 .share-icons svg {
-  fill: var(--color-primary);
+  fill: $primary;
   width: 24px;
   height: 24px;
 }

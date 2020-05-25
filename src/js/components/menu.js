@@ -3,6 +3,12 @@ const menu = document.querySelector('.nav');
 const menuItems = document.querySelectorAll('.nav a');
 var isMenuOpen = false;
 
+var forEach = function (array, callback, scope) {
+  for (var i = 0; i < array.length; i++) {
+    callback.call(scope, i, array[i]);
+  }
+};
+
 function openMenu() {
   
   isMenuOpen = !isMenuOpen;
@@ -15,7 +21,7 @@ function openMenu() {
 
   } else {
     animateItems(true)
-    setTimeout(() => {
+    setTimeout(function() {
       menu.classList.remove('show');
       
     }, 1000)
@@ -23,15 +29,15 @@ function openMenu() {
   } 
   
 }
-
+ 
 function loopItems(items, reverse) {
 
   let interval = 200;
 
   if (reverse) {
-    items.forEach((item, i) => {
+    forEach(items, function(i, item) {
 
-      setTimeout(() => {
+      setTimeout(function() {
         item.classList.remove('show');
       }, interval * i);
   
@@ -39,9 +45,9 @@ function loopItems(items, reverse) {
     button.textContent = 'Menu';
   } else {  
     button.textContent = 'Close Menu';
-    items.forEach((item, i) => {
+    forEach(items, function(i, item) {
 
-      setTimeout(() => {
+      setTimeout(function() {
         item.classList.add('show');
       }, interval * i);
   
