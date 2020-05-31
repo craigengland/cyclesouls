@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: The Beginnings
+title: The Journey Begins
 metaTitle: Land's End to John O'Groats
 metaDesc: Find out our motivations behind taking on one of Britain's most iconic
   cycling routes.
@@ -10,13 +10,13 @@ date: 2020-05-13T16:25:41.020Z
 tags:
   - cycling
 ---
-## The beginnings
+## Decision Time
 
 For anyone who knows us, we are definitely not the best decision makers around (this is an under statement!). We are notorious for overthinking, however, when it comes to creating life lasting moments, we never shy away for one second. Although we pursued an end-to-end cycle before we met it is one of the main protagonists that brought us together in life.
 
 Cycle Souls is made up of Craig and Donna. Since we met around 2 and a half years ago we have moved from the city of Edinburgh to the coastal town of Dunbar where we are still pursuing cycling as hobby. The summer before we met, for different reasons, cycling was more than a hobby as we both decided to take on Britain's most famous cycling route, Land's End to John O'Groats (LEJOG) although one of us cycling it in the opposite direction!
 
-## A brief history of LEJOG/JOGLE
+## A Brief History of LEJOG/JOGLE
 
 There are iconic cycling challenges all around the world, Cairo to Cape Town and Race Across America to name a few however the LEJOG holds a special place in the hearts of the UK cycling community. The route has been completed on penny farthings to tandems and taken on by young and old. No matter who you speak to about their experience of the cycle, everyone of those people have never regretted taking on the challenge.
 
@@ -46,4 +46,4 @@ I made the (crazy!) decision to cycle the 1,000 mile route self-supported. I pur
 
 ## A taste of what's to come
 
-Despite this journey has been documented many times before we wanted a place where we could tell our own story. Over the coming weeks/months we will be going through each day of our journey where you will find out about the difference of doing it as part of a group vs self-supported, general tips for taking on such a challenge and many funny anecdotes that happened along the way.
+Despite this journey being documented many times before we wanted a place where we could tell our own story. Over the coming weeks/months we will be going through each day of our journey where you will find out about the difference of doing it as part of a group vs self-supported, general tips for taking on such a challenge and many funny anecdotes that happened along the way.
