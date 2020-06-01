@@ -9,6 +9,7 @@ featuredimage: /images/land-s-end.jpg
 date: 2020-05-13T16:25:41.020Z
 tags:
   - cycling
+  - lejog
 ---
 ## Decision Time
 
