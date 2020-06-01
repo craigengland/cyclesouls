@@ -13,7 +13,7 @@
 {% block content %}  
   <main id="main-content" class="post" tabindex="-1">
     <article class="post__body">
-      <h1>{{ introHeading }}</h1>
+      <h1>{{ introHeading }}</h1> 
       {{ content | safe }}  
       
       {% if site.enableThirdPartyComments %}
@@ -23,7 +23,7 @@
       {% endif %}
       
     </article>
-
+   
     <!-- Share -->
     {% include "partials/components/share.njk" %}
 
