@@ -15,7 +15,6 @@
     h3,
     h4 {
       position: relative;
-      line-height: 0.8;
     }
 
     p {
@@ -25,7 +24,7 @@
     a:not([class]) {
       color: $primary;
       position: relative;
-      display: inline-block;
+      display: inline;
       background: var(--color-theme-highlight); 
       padding: 0.2rem 0.4rem 0.3rem 0.4rem;
       text-decoration: none;
