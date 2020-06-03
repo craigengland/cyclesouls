@@ -1,7 +1,6 @@
 ---
 layout: home
-title: Hi, welcome to our blog! You can read all about holidays, finance tips
-  and much more
+title: A lifestyle blog about our adventures on two wheels
 metaTitle: Cycle Souls | Lifestyle Blog
 metaDesc: Cycle Souls is the lifestyle blog of Craig and Donna who live in
   Dunbar, East Lothian.
