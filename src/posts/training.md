@@ -34,7 +34,13 @@ As I mentioned in our [previous post](https://www.cyclesouls.com/posts/the-journ
 
 ## Diet
 
-For anyone that knows me, I love a snack. Luckily when training cycling burns through a lot of calories. This can be misconstrued to think that you can eat whatever you want however this is a dangerous road to take as recovery and finding the right fuel for your body will pay dividends in the long run. Don't get me wrong, now and again I would just find something quick to eat to satisfy a craving (hello coffee cake!) however I mostly devised a solid routine when it came to eating between or during rides. 
+For anyone that knows me, I love a snack. Luckily when training cycling burns through a lot of calories. This can be misconstrued to think that you can eat whatever you want however this is a dangerous road to take as recovery and finding the right fuel for your body will pay dividends in the long run. Don't get me wrong, now and again I would just find something quick to eat to satisfy a craving (hello coffee cake!) however I mostly devised a solid routine when it came to eating between or during rides. My typical day was made usually something along the lines of:
+
+* Breakfast - Overnight oats
+* Snack - 2 Bananas
+* Lunch - Sweet Potato Curry 
+* Snack (Just after work) - Some coffee cake
+* Dinner - Pasta of some sort
 
 ## Training Routes
 
