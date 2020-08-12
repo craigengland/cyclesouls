@@ -4,7 +4,7 @@ title: Training
 metaTitle: Training for a LEJOG
 metaDesc: A beginners guide on how to prepare for a LEJOG either as part of a
   group or self-supported.
-featuredimage: /images/fish-and-chips-vagninni.jpg
+featuredimage: /images/blog-1.jpg
 date: 2020-06-14T12:22:51.541Z
 tags:
   - cycling
@@ -37,19 +37,21 @@ As I mentioned in our [previous post](https://www.cyclesouls.com/posts/the-journ
 For anyone that knows me, I love a snack. Luckily when training cycling burns through a lot of calories. This can be misconstrued to think that you can eat whatever you want however this is a dangerous road to take as recovery and finding the right fuel for your body will pay dividends in the long run. Don't get me wrong, now and again I would just find something quick to eat to satisfy a craving (hello coffee cake!) however I mostly devised a solid routine when it came to eating between or during rides. My typical day was made usually something along the lines of:
 
 * Breakfast - Overnight oats
-* Snack - 2 Bananas
-* Lunch - Sweet Potato Curry 
-* Snack (Just after work) - Some coffee cake
-* Dinner - Pasta of some sort
+* Snack - 2 Bananas or any type of fruit
+* Lunch - Sweet Potato Curry
+* Snack (around 6pm, just after work) - Yougurt and Granola with a touch of honey
+* Dinner - Pasta of some sort (Carbonara for example)
 
 ## Training Routes
 
-* Practice rides - Bathgate Alps (weekend), Arthurs Seat Loop (After work ride)
+Living close the Edinburgh city centre made after work routes difficult but one loop I found really beneficial was the ring road at [Arthurs Seat](https://www.strava.com/routes/4271906). It was short enough so that you could just keeping going round the loop multiple times and it was a great place within the city that you could avoid being close to cars. It's about 2.5 miles long and I tended to do this about 8 or 9 times to get a quick 25 miles in after work. 
 
-## Lessons Learned
+Getting up hills was one area that I needed to strengthen before setting off and after bumping into a few cyclists while out and about I heard about the [Bathgate Alps](https://www.visitwestlothian.co.uk/things-to-do/cycling/the-bathgate-alps/). Not an area most people would associate with cycling however the climbs in and around this sort of area set me up in good stead for what Devon and Cornwall were about to throw at me.
 
-* Lessons learned
+## Advice
 
-  * Doing it yourself is hard - no just logistically but no opportunities to draft in a group for 10 or so miles.
-  * Trust the Garmin for route (too many wrong turns)
-  * If you put your mind to something, you can achieve it
+**Doing it yourself is hard**. From working out what clothes to take to booking accommodation. There was always something that would come up, an Airbnb cancelling and having to find a new place for that night which in turn could mean a change to my route. Although stressful at times, as I mentioned before it was satisfying to plot my own way from one end to the other.
+
+**Trust the Garmin.** The accuracy of the routes on these tiny computers is incredible. Make sure you follow the route devised as any wrong turns are frustrating especially after you are approaching 90miles in the rain!
+
+**Mind over matter.** I am not one for superficial motivational hustle porn that seems to be prevalent in the 21st century therefore my encouragement would be more along the lines of, if you think you could do it then there is a good chance you will.
