@@ -1,13 +1,14 @@
 .site-foot {
   margin: 5vw 0 80px;
   a {
-    color: $primary; 
-    text-decoration: none;
-    font-size: 1.4rem;
-    background-color: $pink;
-    padding: .4rem .8rem;
-    display: inline-flex;
     align-items: center;
+    background-color: $pink;
+    color: $primary; 
+    display: inline-flex;
+    font-size: 1.4rem;
+    margin-bottom: 5%;
+    padding: .4rem .8rem;
+    text-decoration: none;
     &:hover {
       text-decoration: underline;
     }
