@@ -34,10 +34,12 @@ When we have local produce on our doorstep it is very difficult to justify not b
 
 After ditching those single-use sponges (you know the ones) it is easy to realise the unnecessary waste that those sponges create. You don't need to get fancy with these as most online marketplaces will sell some sort of version of these. Finished using the cloth, pop it in the wash and reuse. No more throwing out sponges every few days and of course the plastic packaging that these packs come in!
 
-## Another one goes here
+## Beeswax wraps
 
+Cling film has been a staple for the British household ever since we were kids and although it might keep your sandwich fresh in the fridge, its impact of the environment is undoubtedly a negative one. It was created by [accident](https://www.nationalgeographic.com/environment/article/story-of-plastic-sticky-problem-of-plastic-wrap) in a chemistry lab in the 1930's and ever since after the Second World War, it has been used as a way to keep our food fresh for longer in the fridge. Not only is it extremely difficult to recycle, it is made from potentially harmful chemicals. These two reasons make it an easy decision to look for an alternative option. Beeswax wraps are our go-to alternative and not only are they made from a few key organic ingredients such as hemp and organic cotton, they are an easy swap for the sticky nightmare of our old favourite cling film. 
 
+You can buy some here at [Ecovibe](https://ecovibe.co.uk/products/reusable-beeswax-food-wraps-variety-pack). Do you need a stat to push you to make the switch? The U.K alone goes through roughly 1.2 billion metres of cling film every year. Source: ([Ecovibe](https://ecovibe.co.uk/blogs/news/beeswax-wraps-the-answer-to-harmful-cling-film?utm_source=google&utm_medium=cpc&utm_campaign=dsa-ecovibe-0920-remarketing&utm_content=467261084793&utm_term=106551572565&gclid=CjwKCAiAhbeCBhBcEiwAkv2cY4NjHfvcxs3XsPRnQXdCptMQlfI8x5_S4BzM1-Yc84HW19gnLc2XORoCWikQAvD_BwE))
 
 ## Next Steps
 
-Although these are only small changes it certainly got us thinking about what other straightforward changes we could make to our lifestyle in order to be environmentally conscious. Are we going to save the planet with these adjustments? No. But these are all positive steps in the right direction.
+Although these are only small changes it certainly got us thinking about what other  changes we could make to our lifestyle in order to be environmentally conscious. Are we going to save the planet with these adjustments? No. But these are all positive steps in the right direction.
