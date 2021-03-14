@@ -16,7 +16,7 @@ Our impact, as humans, on environment is staring at us in plain sight every day.
 
 We are very lucky to have a [community driven shop](https://communitycarrot.scot/) in our town where glass milk bottles are the default however there are now a lot of businesses online that are offering 'old-fashioned' milk deliveries that use glass bottles. 
 
-There is definitely some sort of nostalgia at play here and I am sure our grandparents generation is wondering why this is such a hot topic at the moment considering it was probably very common back in the day however this is an easy way to start reducing single use plastic.
+There is definitely some sort of nostalgia at play here and I am sure our grandparents generation is wondering why this is such a hot topic at the moment considering it was probably very common back in the day however this is an easy way to start reducing single use plastic. Although we have a great local option, businesses such as [Kerr's Dairy](https://kerrsdairy.co.uk/) and [Thomson Dairies](https://www.thomsondairies.com/milk-delivery/delivery-areas/) are delivering to plenty of locations.
 
 ## Laundry and cleaning refills
 
