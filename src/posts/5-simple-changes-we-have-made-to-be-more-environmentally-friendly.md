@@ -11,7 +11,7 @@ Our impact, as humans, on environment is staring at us in plain sight every day.
 
 ## Glass Milk bottles
 
-We are very lucky to have a community driven shop in our town where glass milk bottles are the default however there are now a lot of businesses online that are offering 'old-fashioned' milk deliveries that use glass bottles. 
+We are very lucky to have a [community driven shop](https://communitycarrot.scot/) in our town where glass milk bottles are the default however there are now a lot of businesses online that are offering 'old-fashioned' milk deliveries that use glass bottles. 
 
 There is definitely some sort of nostalgia at play here and I am sure our grandparents generation is wondering why this is such a hot topic at the moment considering it was probably very common back in the day however this is an easy way to start reducing single use plastic.
 
