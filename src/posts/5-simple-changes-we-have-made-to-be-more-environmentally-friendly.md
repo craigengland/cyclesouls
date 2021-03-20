@@ -4,7 +4,7 @@ title: 5 simple changes we made to be more environmentally friendly
 metaTitle: Five simple changes that will benefit the environment
 metaDesc: By making a few small adjustments to your daily lifestyle you could
   reduce your carbon footprint through very little effort.
-featuredimage: /images/environment-updates.jpg
+featuredimage: /images/environment-improvements.jpg
 date: 2021-03-13T21:48:06.986Z
 tags:
   - sustainability
