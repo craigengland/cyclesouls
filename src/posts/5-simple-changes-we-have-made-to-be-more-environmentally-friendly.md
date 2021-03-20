@@ -4,7 +4,7 @@ title: 5 simple changes we made to be more environmentally friendly
 metaTitle: Five simple changes that will benefit the environment
 metaDesc: By making a few small adjustments to your daily lifestyle you could
   reduce your carbon footprint through very little effort.
-featuredimage: /images/eco.jpg
+featuredimage: /images/environment-improvements.jpg
 date: 2021-03-13T21:48:06.986Z
 tags:
   - sustainability
@@ -33,8 +33,6 @@ When we have local produce on our doorstep it is very difficult to justify not b
 ## Washable cleaning cloths
 
 After ditching those single-use sponges (you know the ones) it is easy to realise the unnecessary waste that those sponges create. You don't need to get fancy with these as most online marketplaces will sell some sort of version of these. Finished using the cloth, pop it in the wash and reuse. No more throwing out sponges every few days and of course the plastic packaging that these packs come in!
-
-![A collection of environmental changes including a wooden box full of fresh loose vegetables](/images/environment-updates.jpg "Our selection of environmental changes we have made")
 
 ## Beeswax wraps
 
