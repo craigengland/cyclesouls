@@ -5,7 +5,7 @@ metaTitle: Training for a LEJOG
 metaDesc: A beginners guide on how to prepare for a LEJOG either as part of a
   group or self-supported.
 featuredimage: /images/blog-training.jpg
-date: 2021-03-06T13:22:51.541Z
+date: 2021-03-07T13:22:51.541Z
 tags:
   - cycling
   - lejog
