@@ -1,3 +1,13 @@
 [build]
   command = "npm run production"
   publish = "dist"
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "dist"
+  exclude = [
+    './dist/styleguide/index.html',
+    './dist/thank-you/index.html',
+  ]
