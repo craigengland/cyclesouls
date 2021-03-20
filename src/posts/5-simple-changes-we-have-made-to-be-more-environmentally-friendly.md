@@ -5,7 +5,7 @@ metaTitle: Five simple changes that will benefit the environment
 metaDesc: By making a few small adjustments to your daily lifestyle you could
   reduce your carbon footprint through very little effort.
 featuredimage: /images/eco.jpg
-date: 2021-03-13T21:48:06.986Z
+date: 2021-03-20T09:48:06.986Z
 tags:
   - sustainability
   - lifestyle
