@@ -34,6 +34,8 @@ When we have local produce on our doorstep it is very difficult to justify not b
 
 After ditching those single-use sponges (you know the ones) it is easy to realise the unnecessary waste that those sponges create. You don't need to get fancy with these as most online marketplaces will sell some sort of version of these. Finished using the cloth, pop it in the wash and reuse. No more throwing out sponges every few days and of course the plastic packaging that these packs come in!
 
+![A collection of environmental changes including a wooden box full of fresh loose vegetables](/images/environment-updates.jpg "Our selection of environmental changes we have made")
+
 ## Beeswax wraps
 
 Cling film has been a staple for the British household ever since we were kids and although it might keep your sandwich fresh in the fridge, its impact of the environment is undoubtedly a negative one. It was created by [accident](https://www.nationalgeographic.com/environment/article/story-of-plastic-sticky-problem-of-plastic-wrap) in a chemistry lab in the 1930's and ever since after the Second World War, it has been used as a way to keep our food fresh for longer in the fridge. Not only is it extremely difficult to recycle, it is made from potentially harmful chemicals. These two reasons make it an easy decision to look for an alternative option. Beeswax wraps are our go-to alternative and not only are they made from a few key organic ingredients such as hemp and organic cotton, they are an easy swap for the sticky nightmare of our old favourite cling film. 
