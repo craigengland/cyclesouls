@@ -6,7 +6,7 @@ metaDesc: Find out our motivations behind taking on one of Britain's most iconic
   cycling routes.
 socialImage: /images/land-s-end.jpg
 featuredimage: /images/land-s-end.jpg
-date: 2020-05-13T16:25:41.020Z
+date: 2021-03-05T17:25:41.020Z
 tags:
   - cycling
   - lejog
